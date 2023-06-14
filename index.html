@@ -481,7 +481,7 @@
             digital marketing & growth solutions.
           </p>
         </div>
-        <div>
+        <div class="container-footer-media">
           <p class="footer-media medium-text">Social media</p>
           <ul class="footer-soc-list list">
             <li class="footer-soc-item">
@@ -534,6 +534,18 @@
             </li>
           </ul>
         </div>
+        <div>
+          <p class="footer-media medium-text">Subscribe</p>
+          <form action="#" class="footer-form">
+            <input type="email" class="footer-input" placeholder="E-mail" />
+            <button type="submit" class="footer-btn">
+              <span>Subscribe</span>
+              <svg class="send-icon" width="24" height="20">
+                <use href="./images/icons.svg#icon-send"></use>
+              </svg>
+            </button>
+          </form>
+        </div>
       </div>
     </footer>
 
@@ -544,6 +556,75 @@
             <use href="./images/icons.svg#icon-modal-close"></use>
           </svg>
         </button>
+        <p class="modal-title">Leave your contacts and we will call you back</p>
+        <form>
+          <div class="modal-field">
+            <label for="user_name" class="input-label">Name</label>
+            <div class="input-wrap">
+              <input
+                type="text"
+                class="modal-input"
+                name="name"
+                id="user_name"
+              />
+              <svg class="modal-icon" width="18" height="18">
+                <use href="./images/icons.svg#icon-person"></use>
+              </svg>
+            </div>
+          </div>
+
+          <div class="modal-field">
+            <label for="user_tel" class="input-label">Phone</label>
+            <div class="input-wrap">
+              <input type="tel" class="modal-input" name="tel" id="user_tel" />
+              <svg class="modal-icon" width="18" height="24">
+                <use href="./images/icons.svg#icon-phone"></use>
+              </svg>
+            </div>
+          </div>
+
+          <div class="modal-field">
+            <label for="user_email" class="input-label">Email</label>
+            <div class="input-wrap">
+              <input
+                type="email"
+                class="modal-input"
+                name="email"
+                id="user_email"
+              />
+              <svg class="modal-icon" width="18" height="24">
+                <use href="./images/icons.svg#icon-email"></use>
+              </svg>
+            </div>
+          </div>
+
+          <div class="container-comment">
+            <label for="user_comment" class="input-label">Comment</label>
+            <textarea
+              name="comment"
+              id="user_comment"
+              class="modal-comment"
+              placeholder="Text input"
+            ></textarea>
+          </div>
+
+          <div>
+            <input type="checkbox" id="privacy" class="privacy-check" hidden />
+
+            <label for="privacy" class="privacy-label">
+              <span>
+                <svg class="privacy-icon" width="10" height="8">
+                  <use href="./images/icons.svg#icon-checked"></use>
+                </svg>
+              </span>
+
+              I accept the terms and conditions of the
+              <a href="#">Privacy Policy</a>
+            </label>
+          </div>
+
+          <button type="submit" class="modal-form-btn">Send</button>
+        </form>
       </div>
     </div>
 
